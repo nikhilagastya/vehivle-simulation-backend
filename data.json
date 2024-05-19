@@ -1,0 +1,50 @@
+{
+  "scenarios": [
+    {
+      "id": "scenario-1",
+      "name": "City Traffic",
+      "time": "10",
+      "vehicles": [
+        {
+          "id": "vehicle-1",
+          "name": "Car 1",
+          "initialPositionX": 50,
+          "initialPositionY": 50,
+          "speed": 10,
+          "direction": "Towards"
+        },
+        {
+          "id": "vehicle-2",
+          "name": "Car 2",
+          "initialPositionX": 100,
+          "initialPositionY": 100,
+          "speed": 15,
+          "direction": "Upwards"
+        }
+      ]
+    },
+    {
+      "id": "scenario-2",
+      "name": "Highway",
+      "time": 120,
+      "vehicles": [
+        {
+          "id": "vehicle-3",
+          "name": "Truck 1",
+          "initialPositionX": 200,
+          "initialPositionY": 200,
+          "speed": 20,
+          "direction": "Backwards"
+        },
+        {
+          "id": "vehicle-4",
+          "name": "Motorbike",
+          "initialPositionX": 300,
+          "initialPositionY": 150,
+          "speed": 25,
+          "direction": "Downwards"
+        }
+      ]
+    }
+  ]
+}
